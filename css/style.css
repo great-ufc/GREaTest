@@ -1175,3 +1175,39 @@ h1, h2, h3, h4, h5,
     .slide-one-item .owl-dots .owl-dot.active > span {
       width: 20px;
       background: #fff; }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #wrapper {
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        margin-bottom: -4px;
+      }
+      .one-third {
+        width: 29%;
+        float: left;
+        margin: 2%;
+      }
+      img:hover {
+        opacity: .8;
+      }
+      @media screen and (max-width: 768px) {
+        .one-third {
+          width: 48%;
+          margin: 1%;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        .one-third {
+          width: 98%;
+          margin: 1%;
+        }
+      }
