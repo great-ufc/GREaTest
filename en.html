@@ -43,43 +43,52 @@
     </div>
 
 
-    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+    <header class="col-12 site-navbar js-sticky-header site-navbar-target" role="banner">
 
-      <div class="container">
-        <div class="row align-items-center position-relative">
+      <div class="col-12">
+        <div class="row col-12 align-items-center position-relative">
 
-
-          <div class="site-logo">
+          <div class="site-logo col-lg-2 col-0">
             <a href="index.html" class="text-black"><span class="text-primary">GREaTest</span> </a>
           </div>
 
-          <div class="ml-5 col-12">
-            <nav class="site-navigation text-center row" role="navigation">
+          <div class="row ml-lg-auto col-lg-10 pr-4">
+            <nav class="ml-auto site-navigation text-center row col-md-10" role="navigation">
 
-              <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+              <ul class="col-12 site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                 <li><a href="#game-section" class="nav-link">The Game</a></li>
                 <li><a href="#helper-section" class="nav-link">The GreaTest Helper</a></li>
                 <li><a href="#publications-section" class="nav-link">Publications</a></li>
                 <li><a href="#team-section" class="nav-link">Team</a></li>
                 <li class="bg-green"><a href="#download-section" class="nav-link"><span class="text-white">Get it now</span></a></li>
+                <li>
+                    <div class="ml-auto d-block d-sm-none">
+                        <figure class="ml-auto">
+                          <a class="ml-auto" href="index.html">
+                            <img src="./images/sw_br.png" alt="traduzir PT-br">
+                          </a>
+                        </figure>
+                      </div>
+                </li>
               </ul>
-              <div class="rounded ml-auto pb-2 pt-2 mb-2 mt-2 mr-sm-5 pr-sm-5">
-                <a href="index.html">
-                  Versão PT-br
-                </a>
-              </div>
             </nav>
-
-
+            <div class="ml-auto d-none d-sm-block">
+                <figure class="ml-auto">
+                  <a class="ml-auto" href="index.html">
+                    <img src="./images/sw_br.png" alt="traduzir PT-br">
+                  </a>
+                </figure>
+              </div>
           </div>
 
 
-          <div class="toggle-button align-items-center d-flex">
-            <a href="#" class="site-menu-toggle p-5 js-menu-toggle text-black d-inline-block d-lg-none d-flex"><span
+          <div class="bg-light toggle-button align-items-center">
+            <a href="#" class="site-menu-toggle p-2 js-menu-toggle text-black d-inline-block d-lg-none d-flex"><span
                 class="icon-menu h3 m-0"></span></a>
           </div>
-
+          
         </div>
+        
       </div>
 
     </header>
@@ -89,8 +98,8 @@
       <div class="site-section-cover overlay img-bg-section"
         style="background-image: url('images/painel/painel2.jpg'); ">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-md-12 col-lg-7">
+          <div class="row">
+            <div class="align-self-center col-9 col-md-11 col-lg-7">
               <h1>GREaTest Card Game</h1>
               <!-- <p>Um jogo de cartas para o ensino de teste de software.</p> -->
               <p>A card game for teaching software testing</p>
@@ -215,12 +224,12 @@
       O JOGO - Como jogar?
     -->
 
-    <div class="site-section block__73694" id="howto-section">
+    <div class="site-section block__73694 " id="howto-section">
       
       <div class="container-fluid">
         <div class="row d-flex no-gutters ">
           
-          <div class="col-lg-5 pl-lg-5 pr-lg-3 mt-lg-0 align-items-center">
+          <div class="col-12 col-lg-5 pl-lg-5 pr-lg-3 mt-lg-0 align-items-center">
             <h2 class="mb-3 p-4 text-black">How to play:</h2>
             <div>
               <section class="">
@@ -245,7 +254,7 @@
 
           <div class="ml-4 col-12 col-lg-6">
             
-            <ul class="col-sm-12 ul-check primary list-unstyled">
+            <ul class="col-12 ul-check primary list-unstyled">
 
               <li class="lead col-sm-12">
                 <span  style="font-weight: bold">Step 1:</span> 
@@ -269,7 +278,7 @@
               </li>
               
             </ul>
-            <ul>
+            <ul class="col-12">
               <li>
                 For each challenge card that is answered (right or wrong), another one must replace it.
               </li>
@@ -680,7 +689,7 @@
      -->
 
     <div class="site-section bg-light" id="team-section">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row text-center mb-5">
           <div class="col-12">
             <div class="block-heading-1">
@@ -689,19 +698,20 @@
           </div>
         </div>
 
-        <h1 class="pl-4 mb-4 mb-3 text-black">Current Team</h1>
+        <h1 class="pl-4 mb-4 text-black">Current Team</h1>
 
-        <div class="owl-carousel slide-one-item ">
+        <div class="owl-carousel slide-one-item">
 
-          <div class="col-12 align-items-center justify-content-center container row">
+          <div class="col-12 p-0 m-0 row">
 
-            <div class="col-lg-4 col-4 p-0 pt-2 pr-2 col-sm-md-6 mb-4 mb-lg-0" data-aos="fade-up">
-              <div class="block-team-member-1 text-center rounded">
+            <div class="col-4 p-0 m-0" data-aos="fade-up">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/Rossana.png" alt="Image" class="img-fluid rounded-circle">
                 </figure>
                 <h3 class="font-size-20 text-black">Rossana Andrade</h3>
-                <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Coordinator</span>
+                <span class="d-block d-sm-none font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordi- nator</span>
+                <span class="d-none d-sm-block font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordinator</span>
                 <p class="px-3 mb-3">.</p>
                 <div class="block-social-1">
                   <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4727975T0" target="_blank">
@@ -710,21 +720,22 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-4 cod-6 p-0 pt-2 pr-sm-sm-2 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-              <div class="block-team-member-1 text-center rounded">
+            <div class="col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="100">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/Ismayle.JPG" alt="Image" class="img-fluid rounded-circle">
                 </figure>
                 <h3 class="font-size-20 text-black">Ismayle Santos</h3>
-                <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Coordinator</span>
-                <p class="px-3 mb-3">. </p>
+                <span class="d-block d-sm-none font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordi- nator</span>
+                <span class="d-none d-sm-block font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordinator</span>
+                <p class="px-3 mb-3"> . </p>
                 <div class="block-social-1">
                   <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4242391T1" target="_blank">Lattes</a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-4 cod-6 p-0 pt-2 pr-sm-sm-2 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="200">
               <div class="block-team-member-1 text-center rounded">
                 <figure>
                   <img src="images/Great/Bruno.JPG" alt="Image" class="img-fluid rounded-circle">
@@ -740,10 +751,10 @@
 
           </div>
 
-          <div class=" col-sm-12 align-items-center container row">
+          <div class="col-12 p-0 m-0 row">
 
-            <div class="col-lg-4 col-4 cod-6 p-0 pt-2 pr-sm-sm-2 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <div class="block-team-member-1 text-center rounded">
+            <div class="col-4 p-0 m-0" data-aos="fade-up">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img  src="images/Great/rubens-2.jpg" alt="Image" class="img-fluid rounded-circle">
                 </figure>
@@ -757,8 +768,8 @@
             </div>
 
             
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <div class="block-team-member-1 text-center rounded">
+            <div class="col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="100">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/jose.jpg" alt="Image" class="img-fluid rounded-circle">
                 </figure>
@@ -771,7 +782,7 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="200">
               <div class="block-team-member-1 text-center rounded">
                 <figure>
                   <img src="images/Great/bosco.jpg" alt="Image" class="img-fluid rounded-circle">
@@ -791,16 +802,15 @@
       </div>
     </div>
     <div class="site-section " id="team-section">
-      <div class="container">
-          <h1 class="pl-4 mb-4 mb-3 text-black">Authors</h1>
+      <div class="container" data-aos="fade-up" data-aos-delay="200">
+        <h1 class="pl-4 mb-4 mb-3 text-black">Authors</h1>
 
+        <div class="owl-carousel slide-one-item">
 
-        <div class="owl-carousel slide-one-item ">
+          <div class="col-12 p-0 m-0 row">
 
-          <div class="col-sm-12 align-items-center justify-content-center container row">
-
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-              <div class="block-team-member-1 text-center rounded">
+            <div class="col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="100">
+              <div class="block-team-member-1 mr-2  text-center rounded">
                 <figure>
                   <img src="images/Great/Italo.JPG" alt="Image" class="img-fluid rounded-circle">
                 </figure>
@@ -813,8 +823,8 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-              <div class="block-team-member-1 text-center rounded">
+            <div class=" col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="100">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/thiago.jpg" alt="Image" class="img-fluid rounded-circle">
                 </figure>
@@ -828,15 +838,14 @@
               </div>
             </div>
 
-            
-
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up">
-              <div class="block-team-member-1 text-center rounded">
+            <div class=" col-4 p-0 m-0" data-aos="fade-up">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/Rossana.png" alt="Image" class="img-fluid rounded-circle">
                 </figure>
                 <h3 class="font-size-20 text-black">Rossana Andrade</h3>
-                <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Coordinator</span>
+                <span class="d-block d-sm-none font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordi- nator</span>
+                <span class="d-none d-sm-block font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordinator</span>
                 <p class="px-3 mb-3">.</p>
                 <div class="block-social-1">
                   <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4727975T0" target="_blank">
@@ -846,10 +855,10 @@
             </div>
           </div>
 
-          <div class="container row">
+          <div class="col-12 p-0 m-0 row">
 
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-              <div class="block-team-member-1 text-center rounded">
+            <div class=" col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="100">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/davi.jpg" alt="Image" class="img-fluid rounded-circle">
                 </figure>
@@ -864,13 +873,14 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-              <div class="block-team-member-1 text-center rounded">
+            <div class=" col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="100">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/Ismayle.JPG" alt="Image" class="img-fluid rounded-circle">
                 </figure>
                 <h3 class="font-size-20 text-black">Ismayle Santos</h3>
-                <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">Coordinator</span>
+                <span class="d-block d-sm-none font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordi- nator</span>
+                <span class="d-none d-sm-block font-gray-5 letter-spacing-1 text-uppercase font-size-11 mb-3">coordinator</span>
                 <p class="px-3 mb-3">. </p>
                 <div class="block-social-1">
                   <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4242391T1" target="_blank">Lattes</a>
@@ -878,8 +888,8 @@
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6  col-4 p-0 pt-2 pr-2 mb-sm-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <div class="block-team-member-1 text-center rounded">
+            <div class=" col-4 p-0 m-0" data-aos="fade-up" data-aos-delay="200">
+              <div class="block-team-member-1 mr-2 text-center rounded">
                 <figure>
                   <img src="images/Great/Bruno.JPG" alt="Image" class="img-fluid rounded-circle">
                 </figure>
@@ -903,15 +913,15 @@
     <!-- 
       APOIO
      -->
-    <div class="site-section" id="team-section">
+    <div class="site-section " id="team-section" data-aos="fade-up" data-aos-delay="200">
       <div class="container">
         <!-- TITLE -->
-        <h1 class="pl-4 mb-4 mb-3 text-black">Suport</h1>
+        <h1 class="pl-4 mb-4 text-black">Suport</h1>
 
         <!-- SLIDER -->
-        <div class="owl-carousel slide-one-item ">
+        <div class="owl-carousel slide-one-item " >
 
-          <div class="col-sm-12 align-items-center justify-content-center container row">
+          <div class="col-12 row">
             <!-- begin of cards -->
 
             <div class="col-lg-3 col-6 p-0 pt-2 pr-2 m-0 col-md-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
@@ -922,6 +932,19 @@
                   </figure>
                   <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
                     Universidade Federal do Ceará
+                  </span>
+                </div>
+              </a>
+            </div>
+
+            <div class="col-lg-3 col-6 p-0 pt-2 pr-2 m-0 col-md-6 mb-4 mb-lg-0" data-aos="fade-up">
+              <a href="http://portal.dc.ufc.br/" target="_blank">
+              <div style="min-height: 325px" class="block-team-member-1 align-items-center text-center rounded">
+                <figure style="min-height: 135px; margin-top: 20px">
+                    <img src="images/logos/dc.png" alt="Image" class="img-fluid ">
+                  </figure>
+                  <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
+                    Departamento de Computação - UFC
                   </span>
                 </div>
               </a>
@@ -940,18 +963,7 @@
               </a>
             </div>
                   
-            <div class="col-lg-3 col-6 p-0 pt-2 pr-2 m-0 col-md-6 mb-4 mb-lg-0" data-aos="fade-up">
-              <a href="http://portal.dc.ufc.br/" target="_blank">
-              <div style="min-height: 325px" class="block-team-member-1 align-items-center text-center rounded">
-                <figure style="min-height: 135px; margin-top: 20px">
-                    <img src="images/logos/dc.png" alt="Image" class="img-fluid ">
-                  </figure>
-                  <span class="d-block font-gray-5 letter-spacing-1 text-uppercase font-size-12 mb-3">
-                    Departamento de Computação - UFC
-                  </span>
-                </div>
-              </a>
-            </div>
+            
                     
             <div class="col-lg-3 col-6 p-0 pt-2 pr-2 m-0 col-md-6 mb-4 mb-lg-0" data-aos="fade-up">
               <a href="http://www.mdcc.ufc.br/" target="_blank">
